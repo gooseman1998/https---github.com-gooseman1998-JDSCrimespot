@@ -1,0 +1,104 @@
+
+/* ================================= 
+  Page Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	padding: 2em;
+	background: #f2f2f2;
+}
+a {
+	color: #3acec2;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	padding: 10px 15px;
+}
+a:hover {
+	color: #093a58;
+}
+
+/* ---- Layout Containers ---- */
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+/*	border: 5px solid red;*/
+}
+.container {
+	width: 70%;
+	margin: 20px auto;
+/*	border: 5px solid red;*/
+}
+
+.main-header,
+.main-footer {
+	width: 100%;
+	text-align: center;
+	background: #45dfc1;
+}
+.main-header{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.login {
+	padding: 2em;
+	text-align: center;
+}
+.main-footer {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+/* ---- Page Elements ---- */
+
+.main-logo {
+	width: 200px;
+}
+
+.btn {
+  background: #c7c7c7;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.message-line {
+	width: 100%;
+	padding: 0.70em;
+}
+.part {
+	display: inline-block;
+	border: 1px solid grey;
+	height: 29px;
+	width: 100px;
+	float: left;
+}
+
+.checkbox {
+	padding: 3px;
+}
+
+
+/* ---- clearfix ---- */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
